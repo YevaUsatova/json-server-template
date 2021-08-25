@@ -1,52 +1,173 @@
 {
-  "toys": [
+  "about": [
+    {
+      "id": {
+        "text": ["At the age of only three months, my parents left me for my grandmother to babysit and never returned.",
+       "Regardless, I was growing up as a happy child until my grandmother passed away and I was left alone at the age of 14. ",
+       "The loss of my last relative affected my mental strain for the next 8 years until my immigration to the US. It’s what had to be done.",
+       "Living without parents left me without financial support and I had to find a job that could cover the cost of my existence." ,
+       "For a brief period of time, the quality of my life slowly started to improve as I finished High School and enrolled in courses for the marine stewardess.",
+       "With the stipend from the courses and waitressing I was able to cover the cost of the expensive seamen documents.", 
+       "But my prosperity was short-lived as my mom with chronic alcoholism found me and tried to recall her parental rights and asked for the money from me.", 
+       "After a long fight in the court, I was free from all charges and claims from her but that didn’t make my life easier.",  
+       "When I turned 19 I passed the interview for the stewardess job on the ship. My excitement was enormous until the day I found out about my sickness.", 
+       "I had to fight for my life with the course of medications for over two years. During this period of time, I landed a lot of money for treatment and had more troubles with my mother.",
+       "Fortunately, I was able to recover and get a job on the ship that helped me to pay my bills and make arrangements for my immigration to the US.",
+       "Without help at work and home, I became my own teacher. I learned how to fix some broken furniture, how to cook, and do other housework. I became as independent as I could to gain more strengths.",
+       "But at one point I realized that without proper knowledge and education I won’t go too far with my skills. I had to get an education that I was dreaming about in Ukraine but wasn’t able to achieve it.",
+       "Therefore, shortly after arrival in the US I enrolled in the college to presume my first real education at age of 27. ",
+       "I am currently a full- time employee at medical office and a full- time student in the Computer Science major. During the weekends I spare my time learning new programming skills that could help me to land an internship or my first job.", 
+       "Despite the lack of sleep I still have spare time to work on my immigration case and skills to play guitar. I also have a long list of volunteering at different shelters around the city because I love animals. My biggest dream is to work as a Software Developer",
+       "in company that creates various technologies for assisting animals in need.", 
+       "The time will show how far I’ll be able to go with my plans but I am sincerely hoping that with the further constant work the reward of a happy life and fulfilled dreams will happen."]
+      }
+  }
+  ],
+  "education": [
     {
       "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
+      "name": "Hunter College",
+      "year": "Currently enrolled",
+      "faculty": "Computer Science",
+      "degree": "Bachelore" 
     },
     {
       "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
+      "name": "Flatiron School",
+      "year": "Currently enrolled",
+      "faculty": "Software Engeeniring",
+      "degree": "Certificate"
     },
     {
       "id": 3,
-      "name": "Mr. Potato Head",
-      "image": "https://vignette.wikia.nocookie.net/universe-of-smash-bros-lawl/images/d/d8/Mr-potato-head-toy-story.gif/revision/latest?cb=20151129131217",
-      "likes": 3
-    },
-    {
-      "id": 4,
-      "name": "Slinky Dog",
-      "image": "https://www.freeiconspng.com/uploads/slinky-png-transparent-1.png",
-      "likes": 4
-    },
-    {
-      "id": 5,
-      "name": "Rex",
-      "image": "http://umich.edu/~chemh215/W11HTML/SSG5/ssg5.2/FRex.png",
-      "likes": 1
-    },
-    {
-      "id": 6,
-      "name": "Bo Peep",
-      "image": "http://4.bp.blogspot.com/_OZHbJ8c71OM/Sog43CMFX2I/AAAAAAAADEs/0AKX0XslD4g/s400/bo.png",
-      "likes": 2
-    },
-    {
-      "id": 7,
-      "name": "Hamm!!!!",
-      "image": "https://cdn140.picsart.com/244090226021212.png?r1024x1024",
-      "likes": 0
-    },
-    {
-      "id": 8,
-      "name": "Little Green Men",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Alien-PNG-File.png",
-      "likes": -2
+      "name": "Penn Foster",
+      "year": "Graduated in 2017",
+      "faculty": "Veterinary Assistant",
+      "degree": "Certificate"
     }
+    
+  ],
+  "work": [
+    {
+      "id": 1,
+      "company": "Department of Transportation",
+      "location": "New York",
+      "position": "IT Security Intern",
+      "year": "From 07/2021 - 09/2021",
+      "duties": "Application scanning; working in active directory; responding and creating task tickets."
+    },
+    {
+      "id": 2,
+      "company": "ZOV Medicall PLLC",
+      "location": "New York",
+      "position": "Administrative Assistant",
+      "year": "From 09/2018 - 09/2021",
+      "duties": "Managing front desk; data entry; responding to phone calls; medical billing; creating prior authorisations."
+    },
+    {
+      "id": 3,
+      "company": "ASPCA/ACC",
+      "location": "New York",
+      "position": "Veterinary Assistant/Animal Rescue Officer",
+      "year": "From 03/2017 - 09/2018",
+      "duties": "Restrainig animals; data entry; responding to emergancy calls; preparing surgery room; feeding and medicating animals."
+    }
+  ],
+  "projects": [
+    {
+      "id": {
+        "c++": [
+        "/ Written by Yeva Usatova",
+        "// PROGRAM: multiFunction.cpp",
+        "// This program will calculate the volume of sphere",
+        "// My important variables in this program are PI, radius, volume, rad",
+        "#include <iostream>            // access to the library",
+        "#include <iomanip>",
+        "using namespace std;",
+        "// Seting global constant",
+        "const double PI = 3.14159;",
+        "// Function prototypes",
+        "double getRadius();",           
+        "double pow(double);",
+        "// Definition of main function",
+        "// This function gets the input for radius, displays it", 
+        "// and culculates volume of sphere.",
+        "int main()",
+        "{// setting variables",
+          "double radius;        // to hold a radius ",
+          "double volume;        // to hold a volume",
+          
+          "// setting numeric output formating",
+          "cout << fixed << showpoint << setprecision(2);",
+          
+         " // Getting the radius of the circle",
+          "cout << 'This programm calculates the volume' ;;         // output message",
+         " cout << 'a sphere.\n';",
+          "radius = getRadius();                                  //call for radius function to display radius calculation",
+          
+         " volume =( (4.0 / 3.0) * PI * pow(radius) );            // formula for volume calculation",
+          
+         " cout <<'The volume of sphere is ';                    // Displaying the results of the calculation for volume",
+          "cout << volume << endl;",
+         " } return 0;",
+        "double getRadius()                                        // Beggining of function",
+        "{ double rad;",
+          
+         " cout << 'Enter the radius of sphere: ';",
+          "cin >> rad;                                          // getting the value of radius from user",
+          "}return rad;                                          // returns the definition of radius",
+        "{return number* number* number;}"
+      ],
+       "python":[
+        "def monthString(monthNum):",
+        "",
+        "Takes as input a number, monthNum, and returns the corresponding month name as a string.",
+        "Example: monthString(1) returns 'January'.",
+       " Assumes that input is an integer ranging from 1 to 12",
+        
+        "",
+        
+       " monthString = ''",
+        
+       " if monthNum==1:",
+           " monthString='January'",
+        "elif monthNum==2:",
+           " monthString='February'",
+        "elif monthNum==3:",
+            "monthString='March'",
+        "elif monthNum==4:",
+            "monthString='April'",
+        "elif monthNum==5:",
+           " monthString='May'",
+        "elif monthNum==6:",
+            "monthString='June'",
+        "elif monthNum==7:",
+            "monthString='July'",
+        "elif monthNum==8:",
+            "monthString='August'",
+       " elif monthNum==9:",
+            "monthString='September'",
+        "elif monthNum==10:",
+           " monthString='October'",
+       " elif monthNum==11:",
+           " monthString='November'",
+       " else:",
+            "monthString='December'",
+        "return(monthString)",
+   
+  " def main():",
+       " n = int(input('Enter the number of the month: '))",
+        "while n<1 or n>12:",
+           " print('This is not a valid month number.')",
+           " n=int(input('Please enter a number between 1 and 12:' ))",
+        "mString = monthString(n)",
+       " print('The month is', mString)",
+    
+   "#Allow script to be run directly:",
+  " if __name__ == '__main__':",
+       " main()"
+       ]
+      }
+  }
   ]
 }
