@@ -75,7 +75,7 @@
   "projects": [
     {
     
-        "c++": [
+        "c": [
         "/ Written by Yeva Usatova",
         "// PROGRAM: multiFunction.cpp",
         "// This program will calculate the volume of sphere",
