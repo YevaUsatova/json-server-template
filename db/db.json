@@ -1,7 +1,6 @@
 {
   "about": [
     {
-      "id": {
         "text": ["At the age of only three months, my parents left me for my grandmother to babysit and never returned.",
        "Regardless, I was growing up as a happy child until my grandmother passed away and I was left alone at the age of 14. ",
        "The loss of my last relative affected my mental strain for the next 8 years until my immigration to the US. It’s what had to be done.",
@@ -20,7 +19,7 @@
        "Despite the lack of sleep I still have spare time to work on my immigration case and skills to play guitar. I also have a long list of volunteering at different shelters around the city because I love animals. My biggest dream is to work as a Software Developer",
        "in company that creates various technologies for assisting animals in need.", 
        "The time will show how far I’ll be able to go with my plans but I am sincerely hoping that with the further constant work the reward of a happy life and fulfilled dreams will happen."]
-      }
+     
   }
   ],
   "education": [
@@ -75,7 +74,7 @@
   ],
   "projects": [
     {
-      "id": {
+    
         "c++": [
         "/ Written by Yeva Usatova",
         "// PROGRAM: multiFunction.cpp",
@@ -168,6 +167,6 @@
        " main()"
        ]
       }
-  }
+
   ]
 }
