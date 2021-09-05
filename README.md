@@ -11,26 +11,7 @@ npm install
 ## Seeding Data
 
 To set up your database, update the `db/seeds.json` file to contain an object
-with a key pointing to an array of data, like this:
-
-```json
-{
-  "toys": [
-    {
-      "id": 1,
-      "name": "Woody",
-      "image": "http://www.pngmart.com/files/3/Toy-Story-Woody-PNG-Photos.png",
-      "likes": 8
-    },
-    {
-      "id": 2,
-      "name": "Buzz Lightyear",
-      "image": "http://www.pngmart.com/files/6/Buzz-Lightyear-PNG-Transparent-Picture.png",
-      "likes": 14
-    }
-  ]
-}
-```
+with a key pointing to an array of data.
 
 Then, run `npm run seed` to copy data from the `db/seeds.json` file to the
 `db/db.json` file. `json-server` uses the `db.json` file to create your RESTful
@@ -78,3 +59,5 @@ Then push your main/default branch up to Heroku:
 ```sh
 git push heroku main
 ```
+### ABout
+This JSON file contains objects with nessesary data for my personal website project. 

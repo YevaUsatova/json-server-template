@@ -77,6 +77,7 @@
       "id": 1,
       "name": "C++",
       "code": [
+        " ",
         "/ Written by Yeva Usatova",
         "// PROGRAM: multiFunction.cpp",
         "// This program will calculate the volume of sphere",
@@ -118,6 +119,7 @@
       "id": 2,
       "name": "Python",
       "code": [
+        " ",
         "def monthString(monthNum):",
         "",
         "Takes as input a number, monthNum, and returns the corresponding month name as a string.",
@@ -163,25 +165,11 @@
       ]
     },
     {
-      "name": " ghsdjd",
+      "name": " ",
       "code": [
-        " jhfgak"
+        " "
       ],
       "id": 3
-    },
-    {
-      "name": " dhjd",
-      "code": [
-        " dsdb"
-      ],
-      "id": 4
-    },
-    {
-      "name": " Project",
-      "code": [
-        " Heloooo kitty"
-      ],
-      "id": 5
     }
   ]
 }
