@@ -72,104 +72,11 @@
       "duties": "Restrainig animals; data entry; responding to emergancy calls; preparing surgery room; feeding and medicating animals."
     }
   ],
-  "projects": [
+  "reviews": [
     {
       "id": 1,
-      "name": "C++",
-      "code": [
-        " ",
-        "/ Written by Yeva Usatova",
-        "// PROGRAM: multiFunction.cpp",
-        "// This program will calculate the volume of sphere",
-        "// My important variables in this program are PI, radius, volume, rad",
-        "#include <iostream>            // access to the library",
-        "#include <iomanip>",
-        "using namespace std;",
-        "// Seting global constant",
-        "const double PI = 3.14159;",
-        "// Function prototypes",
-        "double getRadius();",
-        "double pow(double);",
-        "// Definition of main function",
-        "// This function gets the input for radius, displays it",
-        "// and culculates volume of sphere.",
-        "int main()",
-        "{// setting variables",
-        "double radius;        // to hold a radius ",
-        "double volume;        // to hold a volume",
-        "// setting numeric output formating",
-        "cout << fixed << showpoint << setprecision(2);",
-        " // Getting the radius of the circle",
-        "cout << 'This programm calculates the volume' ;;         // output message",
-        " cout << 'a sphere.\n';",
-        "radius = getRadius();                                  //call for radius function to display radius calculation",
-        " volume =( (4.0 / 3.0) * PI * pow(radius) );            // formula for volume calculation",
-        " cout <<'The volume of sphere is ';                    // Displaying the results of the calculation for volume",
-        "cout << volume << endl;",
-        " } return 0;",
-        "double getRadius()                                        // Beggining of function",
-        "{ double rad;",
-        " cout << 'Enter the radius of sphere: ';",
-        "cin >> rad;                                          // getting the value of radius from user",
-        "}return rad;                                          // returns the definition of radius",
-        "{return number* number* number;}"
-      ]
-    },
-    {
-      "id": 2,
-      "name": "Python",
-      "code": [
-        " ",
-        "def monthString(monthNum):",
-        "",
-        "Takes as input a number, monthNum, and returns the corresponding month name as a string.",
-        "Example: monthString(1) returns 'January'.",
-        " Assumes that input is an integer ranging from 1 to 12",
-        "",
-        " monthString = ''",
-        " if monthNum==1:",
-        " monthString='January'",
-        "elif monthNum==2:",
-        " monthString='February'",
-        "elif monthNum==3:",
-        "monthString='March'",
-        "elif monthNum==4:",
-        "monthString='April'",
-        "elif monthNum==5:",
-        " monthString='May'",
-        "elif monthNum==6:",
-        "monthString='June'",
-        "elif monthNum==7:",
-        "monthString='July'",
-        "elif monthNum==8:",
-        "monthString='August'",
-        " elif monthNum==9:",
-        "monthString='September'",
-        "elif monthNum==10:",
-        " monthString='October'",
-        " elif monthNum==11:",
-        " monthString='November'",
-        " else:",
-        "monthString='December'",
-        "return(monthString)",
-        " def main():",
-        " n = int(input('Enter the number of the month: '))",
-        "while n<1 or n>12:",
-        " print('This is not a valid month number.')",
-        " n=int(input('Please enter a number between 1 and 12:' ))",
-        "mString = monthString(n)",
-        " print('The month is', mString)",
-        "#Allow script to be run directly:",
-        " if __name__ == '__main__':",
-        " main()"
-      ]
-    },
-    {
-      "name": " ",
-      "code": [
-        " "
-      ],
-      "id": 3
+      "name": "Anna",
+      "review": "I know her for a while... What a crazy person!"
     }
   ]
 }
